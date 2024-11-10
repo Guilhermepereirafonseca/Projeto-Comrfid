@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        img:hover {
+            transform: scale(1.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .nav-item a {
+            display: block;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #ff0000d0;
+            font-weight: 500;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .nav-item a:hover {
+            background-color: #ff4d4d;
+            transform: scale(1.05); /* Pequeno aumento ao passar o mouse */
+            text-decoration: none;
+        }
+
+        .nav-item a.active {
+            background-color: #e60000; /* Cor de destaque para o link ativo */
+        }
+    </style>
+    <title>COMRFID</title>
+</head>
+<body style="background-color: #80808034;">
+
+    <ul class="nav-fill" style="list-style-type: none;padding: 0; margin: 0; font-size: 1.5rem;">
+        <li class="nav-item">
+            <a href="videos.html" target="_parent" class="nav-link active" data-bs-toggle="tab" style="background-color: #ff0000d0; color: #fff; font-weight: 500;">Videos</a>
+        </li>
+        <li class="nav-item">
+            <a href="arduino_docs.html" class="nav-link" data-bs-toggle="tab" style="background-color: #00979D; color: #fff; font-weight: 500;">Arduino Docs</a>
+        </li>
+    </ul>
+
+    <img src="assets/img/logo_do_COMRFID.png" alt="logo_COMRFID" class="img-fluid mx-auto d-block" style="width: 25%;">
+
+    <h1 class="display-8 text-center" style="font-family: Arial; font-weight: bold; text-decoration: underline; line-height: 1.7; padding-top: 4%;">Sobre o COMRFID</h1>
+        <p class="fs-4 text-justify" style="font-family: Arial; line-height: 1.9; text-indent: 1em;">Seja bem-vindo(a) há nosso site, Nosso produto que combina segurança e automação residencial, com o uso de um cartão magnético exclusivo, você garante que apenas o proprietário (no caso você consumidor) autorizado possa ligar a máquina, oferecendo uma camada adicional de proteção para o seu sistema computacional.</p>
+    <h2 class="display-8" style="font-family: Arial; font-weight: bold; line-height: 1.7; padding-top: 4%;"">Contate em:</h2>
+        <ul type="circle">
+            <li style="font-size: 20px; font-family: Arial;">Telefone: <span style="font-weight: 780; text-decoration: underline;">(17) 2887-0445</span></li>
+        </ul>
+        <footer class="text-center py-3" style="font-size: 20px">
+        <p>&copy; 2024 - COMRFID</p>
+    </footer>
+</body>
+</html>
